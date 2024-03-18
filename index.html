@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapley Demo</title>
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/shapley.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+        <div class="nav bg-body-tertiary pt-2 pb-2">
+            <nav class="container navbar navbar-expand-lg ">
+                <div class="container-fluid d-flex align-item-center">
+                  <a class="navbar-brand w-50" href="#">Shapley Demo</a>
+                  <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  align-items-lg-center">
+                      <li class="nav-item me-2">
+                        <a class="nav-link text-uppercase fw-bold" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item me-2">
+                        <a class="nav-link text-uppercase fw-bold" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item me-2">
+                        <a class="nav-link text-uppercase fw-bold" href="#">PortFolio</a>
+                      </li>
+        
+                      <li class="nav-item dropdown me-2 fw-bold">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item " href="#">Action</a></li>
+                          <li><a class="dropdown-item " href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider "></li>
+                          <li><a class="dropdown-item " href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+        
+                      <li class="nav-item dropdown me-2 fw-bold">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Level
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Level 1</a></li>
+                          <li><a class="dropdown-item" href="#">Level 2</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Level 2a</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item me-2 fw-bold">
+                        <a class="nav-link text-uppercase" href="#">Shop</a>
+                      </li>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search main-text-color icon-search" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+
+                              <form class="d-none d-lg-flex position-absolute bottom-150 p-2 bg-body form-search" role="search">
+                                <input class="border p-2 w-100 me-2 rounded-0 bg-secondary-subtle change-outline" type="search" placeholder="Type here" aria-label="Search">
+                                <button class="p-2 border  main-bg-color text-white rounded-0" type="submit">Search</button>
+                              </form>
+
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    <!-- End Navbar -->
+
+    <!-- Start Landing Section -->
+        <div class="landing position-relative">
+                <div class=" position-absolute top-50 start-50 translate-middle text-center">
+                    <div class="landing-title text-white mb-4">
+                        <h1 class="text-wrap">We Change Everything WordPress</h1>
+                        <p class="text-white fw-light">This is the only WordPress theme you will ever want to use.</p>
+                    </div>
+                    <div class="landing-button">
+                        <button class="main-bg-color text-white border-0 text-uppercase pt-3 pb-3 ps-4 pe-4 w-10 mb-3 special-button">Read more</button>
+                        <button class="text-uppercase border-0 pt-3 pb-3 ps-4 pe-4">Download Now</button>
+                    </div>
+                </div>
+        </div>
+    <!-- End Landing Section -->
+
+    <!-- Start SEO Section -->
+    <div class="seo pt-5 pb-5">
+        <div class="container">
+            <div class="row ">
+                <div class="image col-12 col-md-8">
+                    <img class="img-fluid" src="./pictures/seo.png" alt="">
+                </div>
+                <div class="seo-friendly text-center col-12 col-md-4 mt-5">
+                    <h3 class="mt-3">SEO Friendly</h3>
+                    <p class="text-body-tertiary mt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.</p>
+                    <button class="main-bg-color text-white border-0 text-uppercase pt-3 pb-3 ps-4 pe-4 special-button">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End SEO Section -->
+
+    <!-- Start Portfolio Section -->
+    <div class="portfolio bg-secondary-subtle pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-md-start col-md-4 pt-5">
+                    <h3 class="pt-3">Portfolio Section</h3>
+                    <p class="text-body-tertiary m-auto mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus quas doloribus quae dignissimos, deserunt vel, molestias numquam dolor doloremque libero officia porro, rerum quia adipisci! Error voluptatem aperiam in!</p>
+                    <button class="main-bg-color text-white border-0 text-uppercase pt-3 pb-3 ps-4 pe-4 special-button">See it in Action</button>
+                </div>
+                <div class="image col-12 text-center col-md-8">
+                    <img class="img-fluid" src="./pictures/portfolio.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Section -->
+
+    <!-- Start Parallax Section -->
+    <div class="parallax">
+      <div class="container">
+        <div class="row text-white">
+          <div class="parallax-title text-center position-absolute top-50 start-50 translate-middle">
+            <h3 class="">Small Parallax Section</h3>
+            <p class="w-50 mx-auto mt-4 mb-4 text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste harum cum mollitia obcaecati eius nemo atque quae suscipit praesentium, eos, aut blanditiis corporis ipsum, iusto vero vitae explicabo beatae quisquam!</p>
+            <button class="change text-uppercase border-0 main-bg-color text-white pt-3 pb-3 ps-5 pe-5 special-button">More Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Parallax Section -->
+
+    <!-- Start Limitless Section -->
+    <div class="limitless pt-5">
+      <div class="container">
+        <div class="heading text-center">
+          <h3>Limitless Options</h3>
+          <p>Phasellus sed nisi ac dui interdum semper. Etiam consequat fermentum sollicitudin. Fusce vulputate porta faucibus. Vivamus nulla tellus, accumsan non efficitur id, pretium quis ante</p>
+          <button class="main-bg-color border-0 text-white pt-3 pb-3 ps-5 pe-5 special-button">Download Now</button>
+        </div>
+        <div class="limitless-image text-center mt-5">
+          <img class="img-fluid" src="./pictures/limitless.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End Limitless Section -->
+
+    <!-- Start Our Latest Projects -->
+    <div class="our-latest">
+    <div class="heading text-center pt-5 pb-3">
+        <h3 class="text-white">Our Latest Projects</h3>
+        <p class="text-white-50">Here is our latest projects. You'll love them!</p>
+      </div>
+      <div class="row g-0">
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-01.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #1</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-02.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #2</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-03.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #3</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-04.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #4</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-05.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #5</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-06.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #6</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-07.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #7</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-08.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #8</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-09.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #9</span>
+        </div>
+        <div class="zoom-effect overflow-hidden col-md-6 col-lg-4 col-xl-3 position-relative">
+          <img class="img-fluid" src="./pictures/project-10.jpg" alt="">
+          <div class="overlay  d-flex justify-content-center align-items-center"></div>
+          <span class="d-block text-white position-absolute z-3 top-50 start-50 translate-middle fs-4">Project #10</span>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Latest Projects -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+        <h3 class="text-white text-center fw-light pt-5">What Our Customers Say</h3>
+      
+        <div id="carouselExampleAutoplaying" class="carousel slide mt-3" data-bs-ride="carousel">
+          <div class="carousel-inner  text-white">
+            <div class="carousel-item active text-center">
+              <p class="w-75 m-auto">Nunc sit amet lobortis nulla. Nunc ullamcorper, mi id luctus dictum, augue tortor dictum ipsum, nec congue arcu lorem in nisl. Duis neque lacus, viverra non mauris ac, pharetra rhoncus libero. Aliquam varius viverra ex, in venenatis magna ornare sit amet. Integer varius sit amet turpis eu ullamcorper.</p>
+              <img src="./pictures/client-01.jpg" class="d-block rounded-circle m-auto" alt="">
+              <span class="d-block">Aigars Silkalns</span>
+            </div>
+            <div class="carousel-item text-center">
+              <p class="w-75 m-auto">Integer ut rutrum nulla, sit amet fringilla nisi. Nam nisl velit, vehicula at nibh sed, porttitor sollicitudin ante. Sed justo augue, vestibulum ut efficitur vitae, euismod et justo. Mauris sed mattis ante. Ut ligula lectus, consequat vitae neque ac, gravida hendrerit ante.</p>
+              <img src="./pictures/client-02.jpg" class="d-block rounded-circle m-auto" alt="">
+              <span class="d-block">John Doe</span>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start Our Clients -->
+    <div class="our-clients pt-5 pb-5">
+        <h4 class="text-center mb-5">Our Main Clients</h4>
+        <div class="row m-0 justify-content-center align-items-center">
+          <div class="col-sm-6 col-md-4 col-lg-2 pe-1 mb-4 text-center ">
+            <img class="img-fluid opacity-25 w-50 " src="./pictures/adobe-logo.png" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 pe-1 mb-4 text-center">
+            <img class="img-fluid opacity-25 w-50" src="./pictures/bootstrap-logo.png" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 pe-1 mb-4 text-center">
+            <img class="img-fluid opacity-25 w-50" src="./pictures/facebook-logo.png" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 pe-1 mb-4 text-center">
+            <img class="img-fluid opacity-25 w-50" src="./pictures/html-logo.png" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 pe-1 mb-4 text-center">
+            <img class="img-fluid opacity-25 w-50" src="./pictures/css-logo.png" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-1 text-center">
+            <img class="img-fluid opacity-25 w-50" src="./pictures/sass-logo.png" alt="">
+          </div>
+        </div>
+
+    </div>
+    <!-- End Our Clients -->
+
+    <!-- Start Download Section -->
+    <div class="download bg-secondary-subtle pt-5 pb-5">
+      <div class="container">
+        <div class="row justify-content-md-between align-items-center">
+          <h3 class="col-10 col-md-6 text-center m-auto mb-3">Do you like this awesome WordPress theme?</h3>
+          <button class="m-auto col-7 col-md-2 w-0 text-uppercase main-bg-color border-0 special-button pt-3 pb-3">Download Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Download Section -->
+
+    <!-- Start Footer -->
+    <footer class="position-relative">
+      <div class="container">
+        <div class="row text-white m-auto">
+          <h4 class="text-center fs-5 col-12 col-md-6 pb-3">The Theme made by <span>Ahmed Bk</span></h4>
+          <div class="social-media-icons text-center text-md-end col-12 col-md-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook me-3" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x me-3" viewBox="0 0 16 16">
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin me-3" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram me-3" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+              <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/shapley.js"></script>
+</body>
+</html>
