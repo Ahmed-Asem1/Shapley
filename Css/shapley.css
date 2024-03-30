@@ -144,8 +144,16 @@ body{
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../pictures/testimonial.jpg);
     background-size: cover;
     background-size:100% 100%;
-    height: 80vh;
+    height: 70vh;
     background-attachment: fixed;
+}
+.testimonials h3{
+    padding-top: 3em;
+}
+.testimonials #carouselExampleAutoplaying{
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%);
 }
 @media (max-width:767px){
     .testimonials h3{
@@ -173,7 +181,7 @@ body{
 /* Start Footer */
 footer{
     background-color: black;
-    height: 50vh;
+    height: 28vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,19 +191,46 @@ footer .social-media-icons svg:hover{
     cursor: pointer;
     transition: all .2s linear;
 }
-
-footer h4 span:hover{
-    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #745cf9 50%, rgba(0,0,0,.6) 70%);
-    -webkit-mask-size: 200%;
-    animation: shine 2s infinite;
+footer .Program-executor{
+    font-size: 13px;
+    line-height: 1.9;
 }
-@keyframes shine {
-    from {
-      -webkit-mask-position: 150%;
+@media(min-width:992px){
+    footer .Program-executor{
+        width: 38%;
     }
-    
-    to {
-      -webkit-mask-position: -50%;
+}
+footer .Program-executor span{
+    animation: blur .75s ease-out infinite;
+}
+/* End Footer */
+
+
+
+
+
+
+
+
+@keyframes blur {
+    from {
+      text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
     }
   }
-/* End Footer */
